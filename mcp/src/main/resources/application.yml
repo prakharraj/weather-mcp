@@ -1,0 +1,11 @@
+spring:
+application:
+name: weather-ai-mcp
+
+weather:
+openweather:
+api-key: YOUR_OPENWEATHER_API_KEY
+geocode-url: http://api.openweathermap.org/geo/1.0/direct
+weather-url: http://api.openweathermap.org/data/2.5/weather
+onecall-url: https://api.openweathermap.org/data/2.5/onecall
+timemachine-url: https://api.openweathermap.org/data/2.5/onecall/timemachine
